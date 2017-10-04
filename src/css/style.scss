@@ -1,0 +1,15 @@
+.reset{
+    margin:0;
+    padding:0;
+}
+
+
+@import 'Components/nav';
+@import 'Components/header';
+@import 'Components/footer';
+@import 'Components/main';
+
+body{
+    @extend .reset;
+    padding: 5% 15% 5% 15%;
+}
